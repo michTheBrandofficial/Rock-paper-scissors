@@ -1,0 +1,55 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+body {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: consolas;
+  background-color: rgba(144, 238, 144, 0.68);
+  margin: 0;
+}
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+  height: 150px;
+}
+
+div.container-1 {
+  width: inherit;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+div.container-1 p, div.container-1 h2 {
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+button.emoji, button.clear {
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-radius: 35px;
+  margin: 0px 20px;
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+
+button:active, button.clear:active {
+  width: 60px;
+  height: 60px;
+  background-color: gainsboro;
+}
